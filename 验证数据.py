@@ -6,7 +6,7 @@ result2=login.login()
 success2=result2.get('success')
 msg2=result2.get('msg')
 print(msg2)
-print(result2)
+#print(result2)
 
 if msg2=='登录成功':
     #def listinfo():
