@@ -16,7 +16,8 @@ def login():
     #print(response.json())
     #print(type(result))
     #print(result.get('success'))
-    return result
+    cook = response.cookies
+    return result,cook
 
 if __name__ == '__main__':
     print(login())
